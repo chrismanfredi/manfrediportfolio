@@ -1,0 +1,11 @@
+{
+  "name": "nodeexpressjeet",
+  "version": "1.0.0",
+  "description": "nodeexpressjeet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manfredi",
+  "license": "ISC"
+}

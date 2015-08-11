@@ -1,0 +1,295 @@
+body {
+  background: #3a393e;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+h4 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+.topbar {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  background-color: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.topbar:before,
+.topbar:after {
+  content: '';
+  display: table;
+}
+.topbar:after {
+  clear: both;
+}
+.topbar:last-child {
+  margin-right: 0%;
+}
+.header {
+  text-decoration: none;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 65.66666666666666%;
+  margin-left: 0%;
+  margin-right: 3%;
+  color: #fff;
+  text-align: center;
+}
+.header:before,
+.header:after {
+  content: '';
+  display: table;
+}
+.header:after {
+  clear: both;
+}
+.header:last-child {
+  margin-right: 0%;
+}
+.navlinks {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+.navlinks:before,
+.navlinks:after {
+  content: '';
+  display: table;
+}
+.navlinks:after {
+  clear: both;
+}
+.navlinks:last-child {
+  margin-right: 0%;
+}
+.navlinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding-left: 20%;
+}
+.container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.container:before,
+.container:after {
+  content: '';
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container:last-child {
+  margin-right: 0%;
+}
+.section1 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.section1:before,
+.section1:after {
+  content: '';
+  display: table;
+}
+.section1:after {
+  clear: both;
+}
+.section1:last-child {
+  margin-right: 0%;
+}
+.section2 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.section2:before,
+.section2:after {
+  content: '';
+  display: table;
+}
+.section2:after {
+  clear: both;
+}
+.section2:last-child {
+  margin-right: 0%;
+}
+.section3 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.section3:before,
+.section3:after {
+  content: '';
+  display: table;
+}
+.section3:after {
+  clear: both;
+}
+.section3:last-child {
+  margin-right: 0%;
+}
+.section4 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  padding: 5% 0 5% 0;
+}
+.section4:before,
+.section4:after {
+  content: '';
+  display: table;
+}
+.section4:after {
+  clear: both;
+}
+.section4:last-child {
+  margin-right: 0%;
+}
+.section5 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  padding: 5% 0 5% 0;
+}
+.section5:before,
+.section5:after {
+  content: '';
+  display: table;
+}
+.section5:after {
+  clear: both;
+}
+.section5:last-child {
+  margin-right: 0%;
+}
+.projects {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  border: 1px solid #fff;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  width: 80%;
+  margin: 1% 0 1% 10%;
+}
+.projects:before,
+.projects:after {
+  content: '';
+  display: table;
+}
+.projects:after {
+  clear: both;
+}
+.projects:last-child {
+  margin-right: 0%;
+}
+.main {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  transition: all 0.5s ease;
+}
+.main:before,
+.main:after {
+  content: '';
+  display: table;
+}
+.main:after {
+  clear: both;
+}
+.main:last-child {
+  margin-right: 0%;
+}
+.main *below(600px) {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main *below(600px):first-child {
+  margin-left: auto;
+}
+.main *below(600px):last-child {
+  margin-right: auto;
+}
+.photo {
+  margin-left: 40%;
+  padding: 5% 0 5% 0;
+  width: 20%;
+  height: 20%;
+}
+.banner {
+  width: 100%;
+  margin-top: 5%;
+}
+p {
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+li {
+  list-style: none;
+  display: inline;
+}
