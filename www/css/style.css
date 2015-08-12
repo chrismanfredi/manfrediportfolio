@@ -213,6 +213,250 @@ h4 {
 .section5:last-child {
   margin-right: 0%;
 }
+.languages {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.languages:before,
+.languages:after {
+  content: '';
+  display: table;
+}
+.languages:after {
+  clear: both;
+}
+.languages:last-child {
+  margin-right: 0%;
+}
+.html {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.html:before,
+.html:after {
+  content: '';
+  display: table;
+}
+.html:after {
+  clear: both;
+}
+.html:last-child {
+  margin-right: 0%;
+}
+.css {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.css:before,
+.css:after {
+  content: '';
+  display: table;
+}
+.css:after {
+  clear: both;
+}
+.css:last-child {
+  margin-right: 0%;
+}
+.javascript {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.javascript:before,
+.javascript:after {
+  content: '';
+  display: table;
+}
+.javascript:after {
+  clear: both;
+}
+.javascript:last-child {
+  margin-right: 0%;
+}
+.skillsrow1 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.skillsrow1:before,
+.skillsrow1:after {
+  content: '';
+  display: table;
+}
+.skillsrow1:after {
+  clear: both;
+}
+.skillsrow1:last-child {
+  margin-right: 0%;
+}
+.bootstrap {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.bootstrap:before,
+.bootstrap:after {
+  content: '';
+  display: table;
+}
+.bootstrap:after {
+  clear: both;
+}
+.bootstrap:last-child {
+  margin-right: 0%;
+}
+.foundation {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.foundation:before,
+.foundation:after {
+  content: '';
+  display: table;
+}
+.foundation:after {
+  clear: both;
+}
+.foundation:last-child {
+  margin-right: 0%;
+}
+.jquery {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.jquery:before,
+.jquery:after {
+  content: '';
+  display: table;
+}
+.jquery:after {
+  clear: both;
+}
+.jquery:last-child {
+  margin-right: 0%;
+}
+.skillsrow2 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.skillsrow2:before,
+.skillsrow2:after {
+  content: '';
+  display: table;
+}
+.skillsrow2:after {
+  clear: both;
+}
+.skillsrow2:last-child {
+  margin-right: 0%;
+}
+.node {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.node:before,
+.node:after {
+  content: '';
+  display: table;
+}
+.node:after {
+  clear: both;
+}
+.node:last-child {
+  margin-right: 0%;
+}
+.angular {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.angular:before,
+.angular:after {
+  content: '';
+  display: table;
+}
+.angular:after {
+  clear: both;
+}
+.angular:last-child {
+  margin-right: 0%;
+}
+.github {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.github:before,
+.github:after {
+  content: '';
+  display: table;
+}
+.github:after {
+  clear: both;
+}
+.github:last-child {
+  margin-right: 0%;
+}
+.icon {
+  margin: 0 0 5% 37%;
+}
+.skillheader,
 .projects {
   *zoom: 1;
   float: left;
@@ -227,14 +471,18 @@ h4 {
   width: 80%;
   margin: 1% 0 1% 10%;
 }
+.skillheader:before,
 .projects:before,
+.skillheader:after,
 .projects:after {
   content: '';
   display: table;
 }
+.skillheader:after,
 .projects:after {
   clear: both;
 }
+.skillheader:last-child,
 .projects:last-child {
   margin-right: 0%;
 }
